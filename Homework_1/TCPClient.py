@@ -1,7 +1,9 @@
 from socket import *
 
 # Data of server side
-serverName ='127.0.0.1' # LocalHost
+# Input serverName
+# serverName ='127.0.0.1' # LocalHost
+serverName = input("Please input IP Address\n")
 serverPort = 12345
 
 # Use TCP
